@@ -1,0 +1,18 @@
+// Custom.scss
+// $primary: #6610f2;
+$primary: #CF9B38;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  background-color: $primary;
+  h1 {
+    font-family: 'Rochester', cursive;
+    // font-family: 'Vibur', cursive;
+  }
+  .container {
+    padding-top: 56px;
+  }
+}
